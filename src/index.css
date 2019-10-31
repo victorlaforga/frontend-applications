@@ -29,6 +29,7 @@ h1 {
  {
   padding-top: 10%;
   width: 250px;
+  height: 100px;
 
 }
 div.voorwerp {
@@ -36,11 +37,14 @@ div.voorwerp {
   height: 20%;
   justify-content: center;
   display: flex;
+  align-content: space-around;
 }
 
 .voorwerp> img {
   max-width: 250px;
   align-items: flex-end;
+  max-height: 250px;
+  border-radius: 80px;
  
 }
 
@@ -49,8 +53,14 @@ div.voorwerp {
   padding-left: 25px;
   max-width: 350px;
 }
+.voorwerp>button {
+  width: 50px;
+  margin-left: auto;
+  border: none;
+  background: transparent;
 
-div>.button {
+}
+div>.randomButton {
 width: 250px;
 height: 50px;
 margin: 5px 15px 30px 15px;
@@ -63,7 +73,7 @@ font-size: 20px;
 letter-spacing: 2.5px;
 }
 
-div>.button:hover {
+div>.randomButton:hover {
 color: #a33241d0;
 background: #2d302f;
 transform: scale(1.1);

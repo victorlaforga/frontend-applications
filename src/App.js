@@ -16,8 +16,6 @@ class App extends React.Component {
     dataBovenkant: [],
     dataOnderkant: [],
   };
-
-  
   componentDidMount() {
         const url ="https://api.data.netwerkdigitaalerfgoed.nl/datasets/ivo/NMVW/services/NMVW-16/sparql"
         
@@ -72,7 +70,7 @@ SELECT ?cho ?place ?placeRegio ?placeRegioName ?title ?pic WHERE {
 ?cho edm:isShownBy ?pic .
 ?place skos:broader ?placeRegio .
 ?placeRegio skos:prefLabel ?placeRegioName .
-} LIMIT 60
+} LIMIT 200
 `
 
 const queryOnderkant = `
@@ -90,7 +88,7 @@ SELECT ?cho ?place ?placeRegio ?placeRegioName ?title ?pic WHERE {
 ?cho edm:isShownBy ?pic .
 ?place skos:broader ?placeRegio .
 ?placeRegio skos:prefLabel ?placeRegioName .
-} LIMIT 70
+} LIMIT 200
 `
    
         const runQuery = (url, query) => {
@@ -102,9 +100,7 @@ SELECT ?cho ?place ?placeRegio ?placeRegioName ?title ?pic WHERE {
           console.log(json);
           console.log(json.results.bindings);
           this.setState({data: json.results.bindings});
-          
-          
-          
+  
           })
         }
         const runQuerySchoeisel = (url, querySchoeisel) => {

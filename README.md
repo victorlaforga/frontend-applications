@@ -6,6 +6,11 @@ Het idee achter mijn concept is om **_kledingontwerpers/designers_** (mensen in 
 
 ![](https://user-images.githubusercontent.com/37700441/67942928-3fe5a380-fbd9-11e9-9b74-131a31d84a5b.png)
 
+## Waar komt de data vandaan?
+Deze 4 musea hebben 1 grote database samen waarin bijna alle voorwerpen in staan die hierbij horen.
+![](https://user-images.githubusercontent.com/37700441/67966655-91efee80-fc04-11e9-9d4b-543a5d4df321.png)
+Om de collectie te bekijken verwijs ik je naar: [https://collectie.wereldculturen.nl/](https://collectie.wereldculturen.nl/)
+
 ## Wat moet je doen om het project werkend te krijgen op je eigen laptop? :computer:
 1. Open je terminal
 2. Kopier de volgende regel en zet die in je terminal `git clone https://github.com/victorlaforga/frontend-applications.git`

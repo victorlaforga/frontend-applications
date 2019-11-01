@@ -29,6 +29,6 @@ Om de collectie te bekijken verwijs ik je naar: [https://collectie.wereldculture
 Als je meer wilt weten over mijn keuzes en mijn proces van dit project, verwijs ik je naar [Mijn Wiki](https://github.com/victorlaforga/frontend-applications/wiki)
 
 ## Bronnen :information_source:
-[Bronnen & Credist](https://github.com/victorlaforga/frontend-applications/wiki/Bronnen)
+[Bronnen & Credits](https://github.com/victorlaforga/frontend-applications/wiki/Bronnen)
 
 

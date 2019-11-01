@@ -12,7 +12,6 @@ Wij hebben van Cindy Zalm (Hoofd Collectiemanagement) de opdracht gekregen om ee
 
 ## Waar komt de data vandaan?
 Deze 4 musea hebben 1 grote database samen waarin bijna alle voorwerpen in staan die hierbij horen.
-De NMVW werkt met sparql als database omgeving.
 
 ![](https://user-images.githubusercontent.com/37700441/67966655-91efee80-fc04-11e9-9d4b-543a5d4df321.png)
 
@@ -30,3 +29,6 @@ Om de collectie te bekijken verwijs ik je naar: [https://collectie.wereldculture
 Als je meer wilt weten over mijn keuzes en mijn proces van dit project, verwijs ik je naar [Mijn Wiki](https://github.com/victorlaforga/frontend-applications/wiki)
 
 ## Bronnen :information_source:
+[Nog fixen](https://github.com/victorlaforga/frontend-applications/wiki)
+
+

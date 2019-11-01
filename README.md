@@ -6,9 +6,17 @@ Het idee achter mijn concept is om **_kledingontwerpers/designers_** (mensen in 
 
 ![](https://user-images.githubusercontent.com/37700441/67942928-3fe5a380-fbd9-11e9-9b74-131a31d84a5b.png)
 
+## Opdracht 
+Wij hebben van Cindy Zalm (Hoofd Collectiemanagement) de opdracht gekregen om een concept te bedenken waarbij we [de data](https://collectie.wereldculturen.nl/) van de NMVW gebruiken voor een bepaalde doelgroep.
+
+
 ## Waar komt de data vandaan?
 Deze 4 musea hebben 1 grote database samen waarin bijna alle voorwerpen in staan die hierbij horen.
+De NMVW werkt met sparql als database omgeving.
+
 ![](https://user-images.githubusercontent.com/37700441/67966655-91efee80-fc04-11e9-9d4b-543a5d4df321.png)
+
+De NMVW werkt met sparql als database omgeving.
 Om de collectie te bekijken verwijs ik je naar: [https://collectie.wereldculturen.nl/](https://collectie.wereldculturen.nl/)
 
 ## Wat moet je doen om het project werkend te krijgen op je eigen laptop? :computer:
@@ -20,3 +28,5 @@ Om de collectie te bekijken verwijs ik je naar: [https://collectie.wereldculture
 
 ## Mijn Wiki :notebook_with_decorative_cover:
 Als je meer wilt weten over mijn keuzes en mijn proces van dit project, verwijs ik je naar [Mijn Wiki](https://github.com/victorlaforga/frontend-applications/wiki)
+
+## Bronnen :information_source:

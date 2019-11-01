@@ -35,7 +35,8 @@ SELECT ?cho ?place ?placeRegio ?placeRegioName ?title ?pic WHERE {
 ?cho edm:isShownBy ?pic .
 ?place skos:broader ?placeRegio .
 ?placeRegio skos:prefLabel ?placeRegioName .
-} LIMIT 50```
+} LIMIT 50
+```
 
 ## Wat moet je doen om het project werkend te krijgen op je eigen laptop? :computer:
 1. Open je terminal

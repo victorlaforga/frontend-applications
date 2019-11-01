@@ -21,8 +21,7 @@ Om de collectie te bekijken verwijs ik je naar: [https://collectie.wereldculture
 ## Query
 Dit is een van me queries die ik heb gebruikt voor mijn opdracht. Ik heb in totaal 4 verschillende queries gebruikt, elk kledingonderdeel heeft ze eigen query. In me query haal ik de volgende onderdelen uit de database: plek (locatie), titel, foto & regio.
 
-`
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+`PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -36,8 +35,7 @@ SELECT ?cho ?place ?placeRegio ?placeRegioName ?title ?pic WHERE {
 ?cho edm:isShownBy ?pic .
 ?place skos:broader ?placeRegio .
 ?placeRegio skos:prefLabel ?placeRegioName .
-} LIMIT 50
-`
+} LIMIT 50`
 
 ## Wat moet je doen om het project werkend te krijgen op je eigen laptop? :computer:
 1. Open je terminal
